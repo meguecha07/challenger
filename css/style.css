@@ -1,0 +1,258 @@
+.desktop {
+    background: url("../img/fondo3.jpg") bottom repeat-y #0A3871;
+    background-size: 73%;
+}
+
+.bloques {
+    width: 100%;
+}
+
+.bloque {
+    display: inline-block;
+    width: 50%;
+    margin-left: 17%;
+}
+
+.logo_alura {
+    padding: 4%;
+    margin-left: 13.5%;
+}
+
+.ppa1 {
+    box-sizing: border-box;
+    margin: 0 auto;
+    float: left;
+}
+
+#txtCadena {
+    background-color: rgb(237, 239, 245, 0.6);
+    border: 0px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    width: 70%;
+    resize: none;
+}
+
+.bloque > .ppal1Btn{
+    margin-top: 10%;
+}
+
+.signoadm {
+    width: 16px;
+    height: 16px;
+    padding: 15px 8px;
+    float: left;
+}
+
+.paragraph {
+    padding: 15px 8px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3c4855;
+    opacity: 1;
+    letter-spacing: 1px;
+}
+
+.btn {
+    border: 1px solid gray;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 4px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#btnEncrypter {
+    background-color: #0A3871;
+    color: white;
+}
+
+#btnDecrypt {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.ppal2 {
+    background-color: rgb(237, 239, 245, 0.7);
+    position: absolute;
+    left: 55%;
+    top: 2%;
+    border: #0A3871 solid;
+    border-radius: 20px;
+    margin: 0 30% 0% 0%;
+    padding: 2.5% 0%;
+    width: 340px;
+    height: max-content;
+}
+
+#txtCadena2 {
+    background-color: rgb(243, 245, 252, 0);
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+    margin: 0% 8% 12%;
+    padding: 10px;
+    resize: none;
+}
+
+#btnCopy {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    margin-left: 35%;
+    display: none;
+
+}
+
+.footer {
+    margin:2%;
+    text-align: center;
+}
+
+@media screen and (max-width:1280px) {
+    .footer {
+        margin:3%;
+    }
+}
+@media screen and (max-width:1135px) {
+    .ppal2 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1119px) {
+    #animacion {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .ppal1Btn {
+        top: 65%;
+        left: 20%;
+    }
+
+    .ppal2 {
+        padding: 4% 0;
+    }
+}
+
+@media screen and (max-width:965px) {
+    .btn {
+        padding: 10px 40px 10px 20px;
+    }
+
+    .ppal2 {
+        padding: 6% 0;
+    }
+}
+
+@media screen and (max-width:917px) {
+    .footer {
+        left: 40%;
+    }
+
+    .ppal2 {
+        padding: 8% 0;
+    }
+}
+
+@media screen and (max-width:912px) {
+    .bloque {
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .ppal1 {
+        position: static;
+    }
+
+    .ppal1Btn {
+        position: static;
+        margin: 2% 20% 5% 20%;
+    }
+
+    .ppal2 {
+        position: static;
+        margin: 0% 10% 0% 15%;
+        padding: 7%;
+    }
+
+    .footer {
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+}
+
+
+@media screen and (max-width:550px) {
+    .bloque {
+        margin-left: 6%;
+    }
+
+    .ppal1 {
+        margin-left: 10%;
+    }
+
+    .ppal2 {
+        margin-left: 23%;
+    }
+
+    #txtCadena2 {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #copy {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .btn {
+        padding: 10px 30px;
+        margin: 10px;
+    }
+
+    #encrypter {
+        margin-left: 13%;
+    }
+
+    #decrypt {
+        margin-left: 10%;
+    }
+
+    #copy {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:310px) {
+
+    #txtCadena2 {
+        padding: 5px;
+    }
+
+    .btn#copy {
+        padding: 10px 20px;
+    }
+}
